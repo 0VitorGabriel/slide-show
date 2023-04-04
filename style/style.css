@@ -8,4 +8,43 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #808080;
+
+    position: relative;
+}
+
+main {
+    background-color: #ffffff;
+
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+
+    border-radius: 20px;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, 25%);
+}
+
+main > h1 {
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+main > section.area_img {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -40%);
+} 
+
+main > section.area_img > img {
+    border-radius: 10px;
 }
