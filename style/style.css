@@ -47,4 +47,6 @@ main > section.area_img {
 
 main > section.area_img > img {
     border-radius: 10px;
+    width: 330px;
+    height: 180px;
 }
