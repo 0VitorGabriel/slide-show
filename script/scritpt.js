@@ -1,6 +1,6 @@
-let area_image = document.querySelector('img')
+const area_image = document.querySelector('img')
 
-let images = [
+const images = [
     '../imgs/img_one.jfif',
     '../imgs/img_two.jpg',
     '../imgs/img_three.jpg'
